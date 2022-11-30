@@ -1,0 +1,53 @@
+#container {
+    border: 1px solid black;
+    width: 300px;
+}
+
+#container > div:nth-child(2n) {
+    background-color: #ccc;
+}
+
+#container > div {
+    float: left;
+}
+
+#container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div {
+    border: 2px dotted black;
+}
+
+#um {
+    width: 100px;
+    height: 50px;
+}
+
+#dois {
+    width: 65px;
+    height: 40px;
+}
+
+#tres {
+    width: 50px;
+    height: 45px;
+}
+
+#quatro {
+    width: 115px;
+    height: 60px;
+    clear: both;
+}
+
+#cinco {
+    width: 45px;
+    height: 20px;
+}
+
+#seis {
+    width: 50px;
+    height: 30px;
+}
